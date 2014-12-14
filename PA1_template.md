@@ -1,4 +1,3 @@
-@@ -0,0 +1,236 @@
 Reproducible Research: Peer Assessment 1
 ========================================================
 
@@ -190,7 +189,7 @@ The mean differs a little, because I filled in them the floor of mean. The 3rd Q
 
 
 ### Are there differences in activity patterns between weekdays and weekends?
-I created a new factor variable with two levels ï¿½ ï¿½weekdayï¿½ and ï¿½weekendï¿½ indicating whether a given date is a weekday or weekend day and linked this with our data.
+I created a new factor variable with two levels – “weekday” and “weekend” indicating whether a given date is a weekday or weekend day and linked this with our data.
 
 ```r
 part_week<-rep("weekday", length(data_new$date))
@@ -234,4 +233,3 @@ plot(help_Weekday_mean
 ```
 
 ![plot of chunk unnamed-chunk-16](figure/unnamed-chunk-16.png) 
-
